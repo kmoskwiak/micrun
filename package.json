@@ -1,0 +1,28 @@
+{
+  "name": "micrun",
+  "version": "1.0.0",
+  "description": "Fastly develop micro services",
+  "keywords": ["microservice", "service", "api", "node", "consul", "micro", "rpc"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmoskwiak/micrun"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "start": "node ./lib/app/start.js",
+    "test": "./node_modules/jasmine-node/bin/jasmine-node tests --verbose"
+  },
+  "author": "Kasper Moskwiak <kasper.moskwiak@gmail.com> (https://kspr.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consul": "^0.30.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "mockery": "^2.1.0",
+    "supertest": "^3.0.0"
+  }
+}
