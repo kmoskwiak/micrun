@@ -1,6 +1,8 @@
 # *micrun*
 Fastly develop micro services in node.js
 
+[![Build Status](https://travis-ci.org/kmoskwiak/micrun.svg?branch=master)](https://travis-ci.org/kmoskwiak/micrun)
+
 ## Features
 * build in [consul](https://www.consul.io/) support for KV store and health check
 * configuration can be stored in consul or locally
