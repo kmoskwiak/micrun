@@ -2,7 +2,15 @@
   "name": "micrun",
   "version": "1.0.0",
   "description": "Fastly develop micro services",
-  "keywords": ["microservice", "service", "api", "node", "consul", "micro", "rpc"],
+  "keywords": [
+    "microservice",
+    "service",
+    "api",
+    "node",
+    "consul",
+    "micro",
+    "rpc"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/kmoskwiak/micrun"
